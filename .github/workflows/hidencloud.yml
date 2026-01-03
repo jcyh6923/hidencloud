@@ -11,4 +11,4 @@
             --telegram-message "有地区开放了" \
             --align-hour
             --region-available \
-            --region-unavailable-text "full and unavailable" \
+            --region-unavailable-text "full and unavailable"
