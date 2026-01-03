@@ -2,12 +2,13 @@ name: Hidencloud notifier
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "50 * * * *"
   workflow_dispatch:
 
 jobs:
   notifier:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
