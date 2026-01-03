@@ -24,6 +24,7 @@ jobs:
             --url "https://dash.hidencloud.com/store/view/349" \
             --keyword "location" \
             --region "SG" \
+            --region "IN" \
             --region-available \
             --region-unavailable-text "full and unavailable" \
             --telegram-token "${{ secrets.TG_TOKEN }}" \
