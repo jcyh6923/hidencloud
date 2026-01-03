@@ -29,6 +29,5 @@ jobs:
             --telegram-token "${{ secrets.TG_TOKEN }}" \
             --telegram-chat-id "${{ secrets.TG_CHAT_ID }}" \
             --telegram-message "SG有机器了" \
-            --align-hour
             --region-available \
             --region-unavailable-text "full and unavailable"
