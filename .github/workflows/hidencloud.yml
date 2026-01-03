@@ -27,7 +27,7 @@ jobs:
             --region-unavailable-text "full and unavailable" \
             --telegram-token "${{ secrets.TG_TOKEN }}" \
             --telegram-chat-id "${{ secrets.TG_CHAT_ID }}" \
-            --telegram-message "有地区开放了" \
+            --telegram-message "SG有机器了" \
             --align-hour
             --region-available \
             --region-unavailable-text "full and unavailable"
