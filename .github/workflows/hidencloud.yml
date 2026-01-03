@@ -2,7 +2,7 @@ name: Hidencloud notifier
 
 on:
   schedule:
-    - cron: "50 * * * *"
+    - cron: "45 * * * *"
   workflow_dispatch:
 
 jobs:
